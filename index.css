@@ -8,15 +8,14 @@
    
   
 }
-.container {
-   
-  }
+
   
   .nav {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 17px;
+    
  
   
     
@@ -32,7 +31,8 @@
   }
   
   .nav li {
-    margin-right: 180px;
+    margin-right: 150px;
+    font-size: 25px;
   }
   
   .nav li:last-child {
@@ -49,18 +49,41 @@
   
   .nav li:hover {
     text-decoration: underline;
-    color: rgb(22, 255, 22);
-    transition: 1s;
+   
+    transition: 0.5s;
     list-style: none;
+    color: rgb(41, 255, 41);
+    text-decoration: none;
 
     
 }
+.bgimg img{
+  margin-top: 50px;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  border-radius: 1000px;
+  
+  padding: 10px 8px;
+  position: relative;
+  border: none;
+}
+.bgimg img:hover{
+  opacity: 0.8;
+  transition: 0.8s;
+  box-shadow: 0 0 50px rgba(43, 255, 0, 0.904);
+  border: none;
+}
 
 /* header */
+
 .header-container{
     display: flex;
     margin-top: 150px;
     padding: 30px;
+    
   
 }
 .right img{
@@ -72,8 +95,11 @@
     
 }
 .right img:hover{
-    box-shadow: 0 0 1000px rgba(43, 255, 0, 0.904);
+    box-shadow: 0 0 100px rgba(43, 255, 0, 0.904);
     transition: 1s;
+}
+.left p{
+  color: #27ff0a;
 }
 .left{
     margin-top: 120px;
@@ -83,7 +109,7 @@
 .btn{
     width: 150px;
     height:40px;
-    background-color: rgba(128, 255, 0, 0.685);
+    background-color: rgba(5, 5, 5, 0.788);
     margin-left: 130px;
     margin-top: 20px;
     border-radius: 10px;
